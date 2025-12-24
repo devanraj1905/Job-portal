@@ -1,0 +1,113 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.head {
+    height: 70px;
+    border: 2px solid black;
+    justify-content: space-between  ;
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+
+}
+.nav-item{
+    padding: 10px;
+}
+
+.hero {
+    text-align: center; 
+    border: 2px solid black;
+    height: 300px;
+    padding-top: 60px;
+
+}
+.hero>h1{
+    font-size: 44px;
+    margin-bottom: 10px;
+}
+.hero>p{
+    font-size: 16px;
+    margin-bottom: 10px ;
+}
+.search{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+.search>input{
+    padding: 10px;
+    width: 180px;
+    border: 1px solid black;
+
+}
+
+.box {
+    border: 2px solid black;
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    justify-content: center;
+}
+
+.job {
+    height: 150px;
+    width: 200px;
+    border: 2px solid black;
+
+}
+.job h3{
+    font-size: 18px;
+}
+.job p{
+    font-size: 14px;
+}
+.job span{
+    font-size: 13px;
+}
+.job button{
+    margin-top:10px ;
+    padding: 8px;
+    border: 2px solid black;
+    background: none;
+    cursor: pointer;
+    display: block;
+}
+.foot{
+    border: 2px solid black;
+    height: 50px;
+}
+.job-detail{
+    display: flex;
+    padding-top: 40px;
+    border-top: 2px solid black;
+
+}
+.job-main{
+    flex: 3;
+}
+.job-main h1{
+    margin-bottom:10px ;
+}
+.job-main h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.job-side{
+        border: 2px solid black;
+        flex: 1;
+        padding: 20px;
+        height: fit-content;
+}
+.apply-btn{
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    background: none;
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
